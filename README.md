@@ -70,7 +70,7 @@ You can also import the library in your Go projects.
 ### Import
 
 ```go
-import "github.com/cmgann/aprs-passcode"
+import "github.com/cmgann/aprs-passcode/aprs"
 ```
 
 ### Generate passcode
@@ -80,7 +80,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/cmgann/aprs-passcode"
+	"github.com/cmgann/aprs-passcode/aprs"
 )
 
 func main() {
